@@ -28,7 +28,7 @@ Blockly.Blocks['mover_atualizado'] = {
     this.appendDummyInput()
         .appendField("Mover o robô");
     this.appendDummyInput()
-        .appendField("(informe o ponto) X:")
+        .appendField("(Informe o ponto) X:")
         .appendField(new Blockly.FieldNumber(0), "x")
         .appendField("metros,")
         .appendField("Y:")
@@ -50,7 +50,7 @@ Blockly.Blocks['rotas'] = {
     this.appendStatementInput("rota")
         .setCheck(null)
         .appendField("Rota")
-        .appendField(new Blockly.FieldTextInput("informe o nome da rota"), "NAME");
+        .appendField(new Blockly.FieldTextInput("Informe o nome da rota"), "NAME");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(105);
